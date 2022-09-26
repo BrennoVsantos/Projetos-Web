@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(to top right, #F288AF,#925FD9,#D96F66 );
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logini {
+    padding-bottom: 20px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #d4b1df;
+}
+main a:hover {
+    text-decoration: underline;
+    color: #0b2877;
+    background-color: #c099cc;
+    font-size: 1.04em;
+}
+main h1 {
+    text-align: center;
+    font-size:1.5em;
+}
+main h2 {
+    background-image: linear-gradient(to right, #bfa0d8,transparent);
+    text-indent: 10px;
+    border-radius: 5px;
+}
+header {
+    background-image: url("https://wallpaperaccess.com/full/2641065.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 85px;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+}
+header > h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: rgb(223, 200, 253);
+}
+header > h1::after {
+    content: '';
+    width: 160px;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(203, 135, 206),rgb(130, 65, 216));
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 9px rgba(255, 231, 253, 0.945);
+}
+header > p {
+    color: #f9ecfd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+nav {
+    background-color: #60578a;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.527);
+}
+input {
+    background-image: linear-gradient(to right,#EAAEF2, #9080F2,#99E2F2);
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+    
+    
+}
+input:empty {
+    color: #ffffff;
+}   
+input:hover {
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+input:invalid {
+    animation: shake .3s;
+    color: red;
+    background-color: #ff000010;
+}
+
+@keyframes shake {
+    25% {transform: translateX(4px) ;}
+    50% {transform: translateX(-4px) ;}
+    75% {transform: translateX(4px) ;}
+}
+
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0%;
+    background-color: #60578a;
+    position: relative;
+    font-weight: bolder;
+}
+.dp-menu ul li {
+    display: inline-block;
+    
+}
+.dp-menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+.dp-menu ul li a:hover {
+    background-color: #442969;
+    
+}
+.dp-menu ul ul {
+    display: none;
+    position: absolute;
+    font-weight:100; 
+}
+
+.dp-menu ul li:hover ul {
+    display:block;
+    
+}
+.dp-menu ul ul {
+width: 90px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+.dp-menu input {
+    outline: none;
+}
+
+main {
+    background-color: #d7cce6;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main img {
+    width: 100%;
+    border-radius: 10px;
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.video {
+    background-image: url("https://wallpaperaccess.com/full/6247509.jpg");
+    margin-bottom: 30px;
+    padding-bottom: 60%;
+    position: relative;
+    border-radius: 10px;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    width: 95%;
+    height: 90%;
+
+}
+iframe {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.658);
+}
+aside {
+    background-color: #bca6db;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.658);
+}
+aside > h3 {
+    text-align: center;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:#9286c5;
+}
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+div#Social img {
+    
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(72, 37, 92, 0.377);
+    text-align: right;
+    height: 30px;
+    margin: auto;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+div#Social {
+      
+    height: 30px;
+    display: inline; 
+    float: center;
+    margin-right: 100px;
+}
+
+
+div#Social img:hover {
+   
+    border: 2px solid rgba(255, 255, 255, 0.699);
+    transform: translate(-3px, -3px );
+    box-shadow: 10px 10px 10px rgba(72, 37, 92, 0.377);
+}
+
+footer {
+    text-align: center;
+    background-color: #60578a;
+    color: #cbb7d1;
+    padding: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: #fdecfa;
+
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;;
+}
